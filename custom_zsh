@@ -1,0 +1,26 @@
+# general
+alias vim='nvim'
+alias w='which'
+export PATH="/Users/taimoorahmad/.local/bin:$PATH"
+
+# git
+alias g='git'
+alias ga='git add'
+alias gs='git status'
+alias gd='git diff'
+alias gps='git push'
+alias gpu='git pull'
+alias gfa='git fetch --all'
+alias gl='git log'
+alias gch='git checkout'
+alias gcb='git checkout -b'
+alias grb='git rebase -i --root'
+alias gc='git commit'
+alias gcm='git commit -m'
+
+# kubectl
+alias k='kubectl'
+alias kgp='kubectl get pods'
+alias kgd='kubectl get deploy'
+alias klf='kubectl logs -f'
+
